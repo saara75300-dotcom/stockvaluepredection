@@ -11,6 +11,7 @@ st.set_page_config(
 
 # Load trained model
 with open("stock_model.pkl", "rb") as file:
+
     model = pickle.load(file)
 
 # UI Header
