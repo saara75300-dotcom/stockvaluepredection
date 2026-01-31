@@ -1,6 +1,9 @@
 import streamlit as st
 import numpy as np
 import pickle
+import os, streamlit as st
+st.write(os.listdir())
+
 
 # Page config
 st.set_page_config(
